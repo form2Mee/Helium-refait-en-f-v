@@ -1,0 +1,48 @@
+nav {
+    background: red;
+}
+ul {
+    background: yellow;
+}
+h1 {
+    background: green;
+}
+li {
+    background: pink;
+}
+/* instructions générales */
+* {
+    margin: 0;
+    padding: 5px;
+    box-sizing: border-box;   
+}
+li {
+    list-style-type: none;
+}
+body {
+    min-height: 100vh;
+    /* background: rgb(29, 29, 29); */
+    /* color: rgb(250, 250, 250); */
+}
+/* PREMIÈRE ÉTAPE POUR LA NAV aligner les éléments */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+nav ul {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+/* LA NAV EST FINIE */
+/* section header */
+.header {
+    background: greenyellow;
+}
+
+/*  section du bas infos*/
+.infos {
+    background: aqua;
+}
